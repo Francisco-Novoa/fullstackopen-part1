@@ -1,7 +1,6 @@
 import React from "react"
 
 function Statistic({ text, value }) {
-
     return (
         <tr>
             <td>
@@ -11,7 +10,6 @@ function Statistic({ text, value }) {
                 {value}{text === "positive" ? "%" : ""}
             </td>
         </tr>
-
     )
 }
 
